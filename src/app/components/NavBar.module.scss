@@ -1,0 +1,21 @@
+.navbarContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0px 25px 0px;
+    font-family:"poppins",sans-serif;
+    font-weight: 500;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    ul{
+        display: flex;
+        list-style-type: none;
+        gap: 120px;
+        margin-right: 30px;
+    }
+    .active{
+        color:#40BFFF;
+    }
+}

@@ -1,0 +1,46 @@
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #FAFAFB;
+    .lngCur {
+        ul {
+            display: flex;
+            gap: 10px;
+            list-style-type: none;
+
+            img {
+                cursor: pointer;
+            }
+
+        }
+    }
+
+    .profile_section {
+        padding-right: 70px;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            gap: 20px;
+        }
+
+        .marginLeft {
+            margin-left: 3px;
+        }
+
+        .price {
+            margin-right: 3px;
+            color: #262626;
+        }
+
+        .cart {
+            position: relative;
+        }
+
+        .cartCount {
+            position: absolute;
+            top: -12px;
+            right: -15px;
+        }
+    }
+}

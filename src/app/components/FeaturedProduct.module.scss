@@ -1,0 +1,22 @@
+.featuredProductContainer{
+    display: flex;
+    .productInfo{
+        padding: 0px 15px 0px 15px;
+    }
+    h2{
+        margin-bottom: 5px;
+        margin-top: 0px;
+    }
+    .prices{
+        display: flex;
+        gap: 10px;
+        margin-top: 5px;
+        .originalPrice{
+            color: #5D656B;
+            text-decoration: line-through;
+        }
+        .discountPrice{
+            color: #FF4858;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.inputContainer{
+    display: flex;
+    // justify-content: center;
+    // margin-top: 60px;
+    // margin-bottom: 60px;
+    input{
+        border: 1px solid #F1F3F4;
+        // width: 450px;
+        // height: 58px;
+        padding-left: 20px;
+        border: 1px solid #40BFFF;
+    }
+    button{
+        background-color:#40BFFF;
+        color: white;
+        // width: 127px;
+        border: 1px solid  #40BFFF;
+    }
+}

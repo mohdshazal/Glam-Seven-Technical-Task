@@ -1,0 +1,13 @@
+.breadCrumbsContainer{
+    background-color: #F6F7F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51px;
+    .active{
+        color: #33A0FF;
+    }
+    .slash{
+        color: #C1C8CE;
+    }
+}

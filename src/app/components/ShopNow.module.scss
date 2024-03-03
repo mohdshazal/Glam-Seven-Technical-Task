@@ -1,0 +1,40 @@
+.shopNowContainer {
+    width: 100%;
+    height: 540px;
+    background-color: #40BFFF;
+    position: relative;
+    h1 {
+        font-size: 55px;
+        font-weight: 500;
+        color: white;
+        padding: 150px 0px 0px 80px;
+        line-height: 70px;
+        margin: 0px;
+    }
+    h3{
+        font-size: 24px;
+        font-weight: 400;
+        color: white;
+        padding: 0px 0px 0px 80px; 
+    }
+    h2{
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        padding: 0px 0px 0px 80px; 
+    }
+    .underline {
+        text-decoration: underline;
+        text-decoration-color: white;
+        text-decoration-thickness: 3px;
+        text-decoration-style: solid;
+        padding-top: 5px;
+    }
+    .overlappingImage {
+        position: absolute;
+        top: -100px; /* Adjust as needed to overlap the top edge */
+        right: -20px; /* Adjust as needed to overlap the right edge */
+        z-index: 1; /* Ensure the image appears above the content */
+
+    }
+}

@@ -1,0 +1,30 @@
+.bestSeller{
+    padding-top: 150px;
+    margin-bottom: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+    ul{
+
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            gap: 120px;
+            margin-bottom: 50px;
+    }
+    .gridContainer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Four columns */
+        grid-template-rows: repeat(2, 1fr); /* Two rows */
+        gap: 10px; /* Gap between grid items */
+        row-gap: 0px;
+    }
+    .active{
+        color: #40BFFF;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+    }
+}

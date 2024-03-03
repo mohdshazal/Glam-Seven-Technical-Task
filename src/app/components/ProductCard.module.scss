@@ -1,0 +1,41 @@
+.cardContainer{
+    width: 299.5px;
+    border: 1px solid #F6F7F8;
+    position: relative;
+    // border-bottom: none;
+    h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        min-height: 65px;
+    }
+    .hot{
+        background-color: #FF4858;
+        width: 35px;
+        height: 20px;
+        padding: 7px;
+        color: white;
+        border-radius: 2px;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+}
+.priceDetails{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px 50px 25px;
+    h4{
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        color: #40BFFF;
+    }
+    .originalPrice{
+        color: #9098B1;
+        text-decoration: line-through;
+    }
+    .discount{
+        color: #FB7181;
+    }
+}
